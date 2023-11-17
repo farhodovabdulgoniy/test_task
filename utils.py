@@ -2,7 +2,7 @@ from datetime import datetime
 
 
 def validate_email(email):
-    return '@' in email  
+    return ('@' in email) and email.count('.') >= 1
 
 
 def validate_phone(phone):
@@ -10,12 +10,17 @@ def validate_phone(phone):
 
 
 def validate_date(date):
-    try:
-        datetime.strptime(date, '%Y.%m.%d') or datetime.strptime(date, '%d.%m.%Y')
-        return True
-    except ValueError:
-        return False
+    formats = ['%Y.%m.%d', '%d.%m.%Y']
     
+    for date_format in formats:
+        try:
+            datetime.strptime(date, date_format)
+            return True
+        except ValueError:
+            continue
+    
+    return False
+
 
 def get_field_type(value):
     if validate_date(value):
