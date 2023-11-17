@@ -1,15 +1,15 @@
-## Создание и активация виртуального окружения
+## Создание виртуального окружения 
 ```
 python -m venv venv
 ```
 
-## Для windows
+## Активация для windows
 ```
 venv\Scripts\activate
 ```
 
 
-## Для linux 
+## Активация для linux 
 ```
 source venv/bin/activate
 ```
