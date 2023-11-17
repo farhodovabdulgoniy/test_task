@@ -1,3 +1,13 @@
+## Клонирование проекта
+```
+git clone https://github.com/farhodovabdulgoniy/test_task.git
+```
+
+## Переходим в папку проекта 
+```
+cd test_task
+```
+
 ## Создание виртуального окружения 
 ```
 python -m venv venv
