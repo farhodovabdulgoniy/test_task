@@ -41,3 +41,5 @@ python app.py
 ```
 python test_script.py
 ```
+
+![Alt text](https://github.com/farhodovabdulgoniy/test_task/images/screenshot.png)
