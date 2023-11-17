@@ -42,4 +42,4 @@ python app.py
 python test_script.py
 ```
 
-![Скриншот]("https://github.com/farhodovabdulgoniy/test_task/images/screenshot.png")
+![Скриншот](https://github.com/farhodovabdulgoniy/test_task/blob/main/images/screenshot.png)
